@@ -1,0 +1,52 @@
+
+#app {
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    
+    border-radius: 20%;
+    border: 5px #333 solid;
+    margin-bottom: 10px;
+}
+img:hover {
+    transform: scale(0.98);
+    box-shadow: 0 0 10px grey;
+  }
+
+.male {
+    border-color: steelblue;
+    background-color: steelblue;
+  }
+  
+  .female {
+    border-color: pink;
+    background-color: pink;
+    color: #333;
+  }
+  
+  button {
+    cursor: pointer;
+    display: inline-block;
+    background: #333;
+    border-radius: 5%;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    padding: 1rem 1.5rem;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    transform: scale(0.98);
+    box-shadow: 0 0 10px grey;
+  }
